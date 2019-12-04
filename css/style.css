@@ -1,0 +1,97 @@
+#main-screen, #main-roulette {
+    position: relative;
+    width: 100%;
+}
+
+/* Make the image responsive */
+#main-screen img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+#main-screen .btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+}
+
+.roulette_container {
+    position: absolute;
+    left: 715px;
+    top: 500px;
+    overflow: hidden;
+    height: 64px;
+}
+
+.btn-1 {
+    top: 72%;
+    left: 43%;
+}
+
+.btn-2 {
+    top: 72%;
+    left: 62%;
+}
+
+.roulette {
+    position: relative;
+    height: 64px!important;
+    transform: translate(0px, 0px);
+    display: inline-block;
+}
+
+.roulette img {
+    display: block;
+    /*margin-bottom: 2px;*/
+    /*margin-top: 2px;*/
+    margin-right: 2px;
+}
+
+.btn_container {
+    position: absolute;
+    top: 450px;
+    left: 1500px;
+    width: 150px;
+}
+
+button.btn.btn-large {
+    width: 150px;
+    height: 80px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.customer {
+    position: absolute;
+    top: 800px;
+    left: 36%;
+    font-size: 20px;
+}
+
+.name {
+    margin-bottom: 10px;
+}
+
+span#c-name {
+    font-weight: bold;
+    font-size: 25px;
+    color: #005aab;
+}
+
+span#c-orderId {
+    color: #0d62af;
+}
+.home-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 100px;
+    height: 60px;
+    font-size: 30px;
+}
